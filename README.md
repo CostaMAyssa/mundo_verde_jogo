@@ -35,7 +35,6 @@
 ### 3. Tutoriais em Vídeo
 - Instruções passo a passo para criar brinquedos e ferramentas a partir de materiais recicláveis, incentivando a prática e o aprendizado.
 
-## Pitch para os Jurados
 
 **EcoHeroes: Missão Reciclar** transforma o aprendizado sobre sustentabilidade em uma experiência prática e divertida. As crianças não apenas aprendem sobre reciclagem, mas também impactam o mundo real através de ações concretas que geram benefícios no jogo. A integração entre o mundo real e o fictício é um diferencial inovador, demonstrando como pequenas ações podem fazer uma grande diferença no ambiente.
 
