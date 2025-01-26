@@ -44,4 +44,4 @@ Os jurados podem ver exemplos de brinquedos simples e criativos feitos a partir 
 
 1. **Clone o Repositório**
    ```bash
-   git clone https://github.com/seu-usuario/mundo_verde_jogo.git
+   git clone https://github.com/CostaMAyssa//mundo_verde_jogo.git
