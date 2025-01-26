@@ -9,10 +9,9 @@ class GameStoryScreen extends StatefulWidget {
 class _GameStoryScreenState extends State<GameStoryScreen> {
  final List<String> _storyTexts = [
   'Bem-vindo a Pollutopolis, uma cidade que já foi cheia de vida, mas agora está sendo destruída pela poluição causada por Smogus, o Lorde da Poluição.',
-  'O ar está pesado, as ruas estão tomadas por lixo e os habitantes perderam a esperança. Mas você, um EcoHerói, pode mudar isso!',
   'Sua missão é clara: colete materiais recicláveis no mundo real, derrote as Bolhas Tóxicas e combata Smogus para restaurar a vida e a esperança em Pollutopolis.',
   'Ao derrotar Smogus, você desbloqueará um incrível tutorial que ensina a usar os materiais recicláveis que você coletou para construir objetos incríveis no mundo real.',
-  'Esses objetos não só fazem a diferença no jogo, mas também mostram como cada ação pode impactar positivamente o planeta. O futuro de Pollutopolis – e do mundo – está em suas mãos, EcoHerói!',
+  'Esses objetos não só fazem a diferença no jogo, mas também mostram como cada ação pode impactar positivamente o planeta.',
 ];
 
 

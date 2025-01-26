@@ -4,8 +4,8 @@ import 'package:google_fonts/google_fonts.dart';
 
 class MissionsScreen extends StatelessWidget {
   final List<Map<String, dynamic>> missions = [
-    {"name": "Coletar Materiais Recicláveis", "reward": "50 XP"},
-    {"name": "Construir um Brinquedo Sustentável", "reward": "30 XP"},
+    {"name": "Criar carrinho de caixa de leite", "reward": "50 XP"},
+    {"name": "Construir um banco de garrfa pet", "reward": "100 XP"},
   ];
 
   final List<Map<String, dynamic>> helpfulContent = [

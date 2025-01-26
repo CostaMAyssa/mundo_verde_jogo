@@ -32,7 +32,7 @@ class HomeScreen extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-  "Parabéns, jogador! Você completou sua missão anterior e está pronto para desbloquear novas atividades épicas no GameTask!",
+  "Parabéns, jogador! Você completou sua missão anterior e está pronto para desbloquear novas atividades épicas no Mundo Verde!",
   style: GoogleFonts.rajdhani(fontSize: 20, color: Colors.white),
 ),
 
