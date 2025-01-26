@@ -1,4 +1,6 @@
 # Mundo Verde: EcoHeroes - Missão Reciclar
+![logo2](https://github.com/user-attachments/assets/bba1f577-88e5-4239-a3dd-d35e467cbcec)
+
 
 **EcoHeroes: Missão Reciclar** é um jogo interativo e educativo onde os jogadores ajudam a salvar uma cidade fictícia chamada Pollutopolis, que está sendo destruída pela poluição causada pelo vilão Smogus, o Lorde da Poluição. Para restaurar a cidade, as crianças devem coletar materiais recicláveis no mundo real e usá-los para criar brinquedos e ferramentas no jogo, desbloqueando novas áreas e melhorando o ambiente digital.
 
