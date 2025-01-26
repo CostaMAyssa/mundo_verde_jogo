@@ -1,0 +1,54 @@
+name: mundo_verde_game
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  animated_text_kit: ^4.2.2
+  device_preview: ^1.2.0 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/image/logo.png
+    - lib/image/Slime1.png
+    - lib/image/Slime2.png
+    - lib/image/Slime3.png
+    - lib/image/Slime4.png
+    - lib/image/Slime5.png
+    - lib/image/Slime6.png
+    - lib/image/Slime7.png
+    - lib/image/Slime8.png
+    - lib/image/Slime9.png
+    - lib/image/Slime10.png
+    - lib/image/Slime11.png
+    - lib/image/Slime12.png
+    - lib/image/Slime13.png
+    - lib/image/Slime14.png
+    - lib/image/Bottle1.png
+    - lib/image/Bottle2.png
+    - lib/image/Bottle3.png
+    - lib/image/Bottle4.png
+    - lib/image/Bottle5.png
+    - lib/image/star1.png
+    - lib/image/star2.png
+    - lib/image/star3.png
+    - lib/image/star4.png
+    - lib/image/hero.png
+    - lib/image/floresta.png
+    - lib/image/bloqueado.png
+
