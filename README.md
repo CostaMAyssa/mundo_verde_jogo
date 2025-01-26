@@ -2,7 +2,9 @@
 ![logo2](https://github.com/user-attachments/assets/bba1f577-88e5-4239-a3dd-d35e467cbcec)
 
 
-**EcoHeroes: Missão Reciclar** é um jogo interativo e educativo onde os jogadores ajudam a salvar uma cidade fictícia chamada Pollutopolis, que está sendo destruída pela poluição causada pelo vilão Smogus, o Lorde da Poluição. Para restaurar a cidade, as crianças devem coletar materiais recicláveis no mundo real e usá-los para criar brinquedos e ferramentas no jogo, desbloqueando novas áreas e melhorando o ambiente digital.
+**EcoHeroes: Missão Reciclar**  é um jogo interativo e educativo onde os jogadores têm a missão de salvar Pollutopolis, uma cidade fictícia ameaçada pela poluição causada pelo terrível vilão Smogus, o Lorde da Poluição.
+
+Através de missões no mundo real, como coleta de materiais recicláveis e criação de brinquedos, os jogadores aprendem de forma prática sobre sustentabilidade, enquanto ajudam a restaurar Pollutopolis e melhoram o ambiente digital.
 
 ## Mecânicas do Jogo
 
@@ -26,13 +28,7 @@
 - O vilão Smogus está constantemente poluindo a cidade, e os jogadores devem trabalhar em equipe para vencê-lo.
 - Personagens aliados, como animais falantes, oferecem dicas sobre reciclagem e sustentabilidade.
 
-## Tecnologias para Conexão Real-Jogo
 
-### 1. Escaneamento de Objetos
-- O uso da câmera do dispositivo permite identificar materiais recicláveis, como garrafas PET e caixas de papelão.
-
-### 2. Realidade Aumentada (AR)
-- O jogo utiliza AR para mostrar o progresso do jogador no mundo fictício em tempo real, criando uma experiência imersiva e interativa.
 
 ### 3. Tutoriais em Vídeo
 - Instruções passo a passo para criar brinquedos e ferramentas a partir de materiais recicláveis, incentivando a prática e o aprendizado.
