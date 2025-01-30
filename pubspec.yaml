@@ -20,6 +20,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.3
 
 flutter:
   uses-material-design: true
@@ -52,3 +53,8 @@ flutter:
     - lib/image/floresta.png
     - lib/image/bloqueado.png
 
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "lib/image/logo.png"
