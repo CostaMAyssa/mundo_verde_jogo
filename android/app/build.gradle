@@ -1,38 +1,45 @@
 android {
-    namespace = "com.cosmos.mundo_verde" // Alterado para ser o formato correto para o namespace (deve ser um identificador único)
-    compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+    namespace = "com.cosmos.mundo_verde" // Identificador único para o namespace
+    compileSdk = flutter.compileSdkVersion // Utilizando a versão do compileSdk definida pelo Flutter
+    ndkVersion = flutter.ndkVersion // Definição da versão do NDK (se necessário)
 
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_17
-        targetCompatibility = JavaVersion.VERSION_17
+        sourceCompatibility = JavaVersion.VERSION_17 // Garantindo a compatibilidade com Java 17
+        targetCompatibility = JavaVersion.VERSION_17 // Garantindo a compatibilidade com Java 17
     }
 
     kotlinOptions {
-        jvmTarget = JavaVersion.VERSION_17
+        jvmTarget = JavaVersion.VERSION_17 // Definindo o target do Kotlin para Java 17
     }
 
     defaultConfig {
-        applicationId = "com.cosmos.mundo_verde" // Esse ID de aplicação geralmente segue o padrão "com.nome.app"
-        minSdk = flutter.minSdkVersion
-        targetSdk = flutter.targetSdkVersion
-        versionCode = flutter.versionCode
-        versionName = flutter.versionName
+        applicationId = "com.cosmos.mundo_verde" // ID do aplicativo
+        minSdk = flutter.minSdkVersion // Versão mínima do SDK definida pelo Flutter
+        targetSdk = flutter.targetSdkVersion // Versão de destino do SDK definida pelo Flutter
+        versionCode = flutter.versionCode // Código de versão do Flutter
+        versionName = flutter.versionName // Nome da versão do Flutter
     }
 
     signingConfigs {
         release {
-            keyAlias = keystoreProperties['keyAlias']
-            keyPassword = keystoreProperties['keyPassword']
-            storeFile = keystoreProperties['storeFile'] ? file(keystoreProperties['storeFile']) : null
-            storePassword = keystoreProperties['storePassword']
+            keyAlias = keystoreProperties['keyAlias'] // Puxando as propriedades de assinatura do keystore
+            keyPassword = keystoreProperties['keyPassword'] // Senha da chave
+            storeFile = keystoreProperties['storeFile'] ? file(keystoreProperties['storeFile']) : null // Caminho para o arquivo keystore
+            storePassword = keystoreProperties['storePassword'] // Senha do keystore
         }
     }
 
     buildTypes {
         release {
             signingConfig = signingConfigs.release // Usando a configuração de assinatura definida
-            // Adicione outras configurações de build, como minifyEnabled se necessário
+            // Caso necessário, habilitar minifyEnabled para otimizar o código
+            // minifyEnabled true
+            // shrinkResources true // Reduzindo o tamanho dos recursos, se desejado
         }
+    }
+
+    // Para compatibilidade com o Flutter, incluindo a configuração de flutter plugin
+    lintOptions {
+        disable 'InvalidPackage'
     }
 }
